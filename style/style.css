@@ -1,0 +1,137 @@
+/* global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+/* application*/
+
+body {
+    background-color: #F3F5FC;
+}
+
+main {
+    display: flex;        
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header, #textarea {
+    padding: 1.5rem 1.5rem 0 1.5rem; 
+}
+
+.div-text {
+    margin: 3rem 0 0 5rem;
+}
+
+#textarea {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.informativo {
+    font-size: 13px;
+    padding: 10px;
+    color: #495057;
+    display: flex;
+}
+
+textarea {
+    border: none;
+    outline: none;
+    font-size: 1.5rem;
+    color: #0A3871;
+    resize: none;
+}
+
+#text {
+    background-color: #F3F5FC;
+    text-transform: lowercase;
+}
+
+textarea::placeholder { 
+    color: #0A3871;
+    opacity: 1; 
+}
+
+#result {
+    height: 90vh;
+    background-color: white;
+    margin: 1.5rem;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+#initalResult {
+    align-items: center;
+    gap: 1rem;
+}
+
+#result h3 {
+    font-weight: bold;
+}
+
+/* class in js */
+.view {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.not-view {
+    display: none;
+}
+
+.primary-btn {
+    width: 320px;
+    outline: none;
+    border: none;
+    height: 50px;
+    border-radius: 1.5rem;
+    font-size: 1rem;
+    color: white;
+    background-color: #0A3871;
+    margin-bottom: 1rem;
+}
+
+.primary-out {
+    width: 320px;
+    outline: none;
+    border: 2px solid #0A3871;
+    height: 50px;
+    border-radius: 1.5rem;
+    font-size: 1rem;
+    color: #0A3871;
+    background-color: #F3F5FC;
+}
+
+/* responsive */
+@media (max-width: 820px) {
+    main {
+        flex-direction: column;
+    }
+
+    #text {
+        margin-bottom: 1rem;
+    }
+    
+    .div-text {
+        margin: 2rem 0 0 0;
+    }
+
+    #result {
+        height: auto;
+    }
+
+    #copy {
+        margin-top: 1rem;
+    }
+
+    .illustration {
+        display: none;
+    }
+}

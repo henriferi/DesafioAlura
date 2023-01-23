@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador</title>
+
+    <link rel="shortcut icon" href="./Imagens/Vector.png" type="image/png">
+    <link rel="stylesheet" href="./style/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+
+    <script src="./script/script.js" defer></script>
+</head>
+<body>
+    <main>
+        <section id="textarea">
+            <img src="https://media.discordapp.net/attachments/872299804707942411/1066886017266761798/Vector.png" alt="">
+            <div class="div-text">
+                <textarea id="text" autofocus required placeholder="Digite seu texto" cols="23" rows="8"></textarea>
+                <span class="informativo"><img src="./Imagens/Vector (1).png" alt="">Apenas letras minúsculas e sem acento</span>
+                <div>
+                    <button class="primary-btn" id="cript">Criptografar</button>
+                    <button class="primary-out" id="descrip">Descriptografar</button>
+                </div>
+            </div>
+        </section>
+        <section id="result">
+            <div id="initalResult" class="view">
+                <picture class="illustration">
+                    <img src="https://cdn.discordapp.com/attachments/872299804707942411/1066886065195069490/High_quality_products_1_1.png" alt="">
+                </picture>
+                <h3>Nenhuma mensagem encontrada</h1>
+                <p>Digite um texto que você deseja <br> criptografar ou descriptografar.</p>
+            </div>
+            <div id="resultText" class="not-view">
+                <textarea id="resultValue" readonly cols="20" rows="15"></textarea>
+                <button class="primary-out" id="copy">Copy</button>
+            </div>
+         </div>
+        </section>
+    </main>
+</body>
+</html>
