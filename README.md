@@ -1,2 +1,2 @@
 # Challenger ALURA
-Crianção de um encriptador e desencriptador de mensagens.
+Criação de um encriptador e desencriptador de mensagens.
