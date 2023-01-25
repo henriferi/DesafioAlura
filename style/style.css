@@ -47,6 +47,15 @@ textarea {
     resize: none;
 }
 
+button {
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #031a36;
+    transition: 0.6s ease-in-out;
+}
+
 #text {
     background-color: #F3F5FC;
     text-transform: lowercase;
@@ -58,7 +67,7 @@ textarea::placeholder {
 }
 
 #result {
-    height: 90vh;
+    height: 88vh;
     background-color: white;
     margin: 1.5rem;
     padding: 1rem;
@@ -101,12 +110,20 @@ textarea::placeholder {
 .primary-out {
     width: 320px;
     outline: none;
-    border: 2px solid #0A3871;
+    border: none;
     height: 50px;
     border-radius: 1.5rem;
     font-size: 1rem;
-    color: #0A3871;
-    background-color: #F3F5FC;
+    color: white;
+    background-color: #0A3871;
+}
+
+footer {
+    text-align: center;
+    font-weight: bold;
+    font-size: 13px;
+    padding: 5.5px;
+    background-color: rgba(128, 128, 128, 0.61);
 }
 
 /* responsive */
